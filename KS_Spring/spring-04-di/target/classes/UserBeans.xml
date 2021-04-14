@@ -6,7 +6,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--p命名空间可以直接注入属性的值 property-->
-    <bean id="user" class="com.T_Lyon.pojo.User" p:name="狂神" p:age="18"/>
+    <bean id="user" class="com.T_Lyon.pojo.User" p:name="狂神" p:age="18" scope="singleton"/>
+    <bean id="user2" class="com.T_Lyon.pojo.User" p:name="狂神2" p:age="182" scope="prototype"/>
 
     <!--c命名空间可以通过构造器注入construct-args-->
     <!--<bean id="user" class="nuc.ss.pojo.User" c:age="18" c:name="狂神2" scope="prototype"/>-->

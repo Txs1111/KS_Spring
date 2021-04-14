@@ -17,6 +17,9 @@ public class MyTest {
         //User user = (User)context.getBean("user");
         User user = context.getBean("user", User.class);
         User user2 = context.getBean("user", User.class);
+        User user3 = context.getBean("user2", User.class);
+        
         System.out.println(user == user2);
+        System.out.println(user == user3);
     }
  }
