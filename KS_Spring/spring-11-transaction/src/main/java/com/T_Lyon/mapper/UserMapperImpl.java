@@ -8,7 +8,7 @@ import java.util.List;
 public class UserMapperImpl extends SqlSessionDaoSupport implements UserMapper {
 
     public List<User> selectUser() {
-        User user = new User(7, "小王", "13654");
+        User user = new User(8, "小王", "13654");
 
         UserMapper mapper = getSqlSession().getMapper(UserMapper.class);
 
