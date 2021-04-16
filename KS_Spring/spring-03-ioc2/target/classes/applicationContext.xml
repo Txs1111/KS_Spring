@@ -4,10 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="User" class="com.T_Lyon.pojo.User">
-        <property name="name" value="狂神set"/>
-    </bean>
-    <bean id="UserConstructor" class="com.T_Lyon.pojo.UserConstructor">
-        <constructor-arg name="name" value="狂神构造方法"/>
-    </bean>
+    <import resource="beans.xml"/>
+    <import resource="beans2.xml"/>
+    <import resource="beans3.xml"/>
 </beans>
