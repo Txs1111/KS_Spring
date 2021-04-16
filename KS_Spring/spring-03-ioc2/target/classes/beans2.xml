@@ -5,9 +5,9 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="User" class="com.T_Lyon.pojo.User">
-        <property name="name" value="狂神set"></property>
+        <property name="name" value="狂神set"/>
     </bean>
     <bean id="UserConstructor" class="com.T_Lyon.pojo.UserConstructor">
-        <constructor-arg name="name" value="狂神构造方法"></constructor-arg>
+        <constructor-arg name="name" value="狂神构造方法"/>
     </bean>
 </beans>
