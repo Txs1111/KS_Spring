@@ -9,7 +9,7 @@
 
     <import resource="spring-dao.xml"/>
 
-
+    <!--UserMapperImpl用的-->
     <!--<bean id="userMapper" class="com.T_Lyon.mapper.UserMapperImpl">-->
     <!--    <property name="sqlSession" ref="sqlSession"/>-->
     <!--</bean>-->
