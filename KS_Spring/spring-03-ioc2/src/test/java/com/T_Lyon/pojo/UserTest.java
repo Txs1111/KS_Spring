@@ -6,14 +6,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class UserTest {
     public static void main(String[] args) {
 
-        //SpringÈİÆ÷£¬ÀàËÆÓÚ»é½éÍøÕ¾
+        //Springå®¹å™¨ï¼Œç±»ä¼¼äºå©šä»‹ç½‘ç«™
         //ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 
         //User user = (User)context.getBean("user");
-        //±ğÃû
+        //åˆ«å
         //User user = (User)context.getBean("userNew");
 
-        //´´½¨Í¬Ò»¸ö¶ÔÏó
+        //åˆ›å»ºåŒä¸€ä¸ªå¯¹è±¡
         /*User user2 = (User)context.getBean("user");
         System.out.println(user == user2);*/
 
@@ -21,7 +21,7 @@ public class UserTest {
 
 
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        //»á½«ËùÓĞµÄÊµÀı´´½¨£¬¼´beans.xmlÖĞµÄËùÓĞbean¶¼»á±»ÊµÀı»¯´´½¨
+        //ä¼šå°†æ‰€æœ‰çš„å®ä¾‹åˆ›å»ºï¼Œå³beans.xmlä¸­çš„æ‰€æœ‰beanéƒ½ä¼šè¢«å®ä¾‹åŒ–åˆ›å»º
         User user = (User) context.getBean("User");
         user.show();
 
@@ -29,8 +29,6 @@ public class UserTest {
         UserConstructor userConstructor2 = (UserConstructor) context.getBean("UserConstructor");
         userConstructor.show();
         System.out.println(userConstructor == userConstructor2);
-
-
 
 
         UserT userT = (UserT) context.getBean("t2");

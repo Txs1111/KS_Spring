@@ -5,15 +5,15 @@ public class User {
 
     public User(String name) {
         this.name = name;
-        System.err.println("ÎŞ²Î¹¹Ôì·½·¨£ºsetÓĞ²Î¹¹Ôì·½·¨");
+        System.err.println("æ— å‚æ„é€ æ–¹æ³•ï¼šsetæœ‰å‚æ„é€ æ–¹æ³•");
     }
 
     public User() {
-        System.err.println("ÎŞ²Î¹¹Ôì·½·¨£ºset¹¹Ôì·½·¨");
+        System.err.println("æ— å‚æ„é€ æ–¹æ³•ï¼šsetæ„é€ æ–¹æ³•");
     }
 
     public void show() {
-        System.err.println("ÎŞ²Î¹¹Ôì·½·¨£ºshow·½·¨£º" + name);
+        System.err.println("æ— å‚æ„é€ æ–¹æ³•ï¼šshowæ–¹æ³•ï¼š" + name);
     }
 
     public String getName() {
@@ -22,6 +22,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-        System.err.println("ÎŞ²Î¹¹Ôì·½·¨£ºset·½·¨£ºÉèÖÃ±äÁ¿");
+        System.err.println("æ— å‚æ„é€ æ–¹æ³•ï¼šsetæ–¹æ³•ï¼šè®¾ç½®å˜é‡");
     }
 }

@@ -5,15 +5,15 @@ public class UserConstructor {
 
     public UserConstructor(String name) {
         this.name = name;
-        System.out.println("ÓĞ²Î¹¹Ôì·½·¨£ºÓĞ²Î¹¹Ôì·½·¨");
+        System.out.println("æœ‰å‚æ„é€ æ–¹æ³•ï¼šæœ‰å‚æ„é€ æ–¹æ³•");
     }
 
     public UserConstructor() {
-        System.out.println("ÓĞ²Î¹¹Ôì·½·¨£ºÎŞ²Î¹¹Ôì·½·¨");
+        System.out.println("æœ‰å‚æ„é€ æ–¹æ³•ï¼šæ— å‚æ„é€ æ–¹æ³•");
     }
 
     public void show() {
-        System.out.println("ÓĞ²Î¹¹Ôì·½·¨£ºshow·½·¨£º" + name);
+        System.out.println("æœ‰å‚æ„é€ æ–¹æ³•ï¼šshowæ–¹æ³•ï¼š" + name);
     }
 
     public String getName() {
